@@ -2,12 +2,20 @@
 import React from "react";
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation';
+import Link from "next/link";
 
 
-const HeroSection = () => {
+const TopSection = () => {
+  const downlaodcv =()=>
+        <iframe
+          src="/Rej.pdf"
+          width="600"
+          height="800"
+          title="PDF Viewer"
+        ></iframe>
   return (
     <section>
-      <div className="grid grid-cols-1 sm:grid-cols-12">
+      <div className="grid grid-cols-1 sm:grid-cols-12 mt-8">
         <div className="col-span-7 place-self-center text-center">
             <span className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             Hello, I am {" "}
@@ -26,16 +34,20 @@ const HeroSection = () => {
               repeat={Infinity}
             />
             </span>
-            <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl ">
-            Hope you guys are doing well!
+            <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl mt-2 ">
+            Let's dive and keep exploring
             </p>
             <div>
-              <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-white">
-                Hire me
-              </button>
-              <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white border mt-3">
-                Downlaod Resume
-              </button>
+              <Link href='/#contact'>
+                <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-white">
+                  Hire me
+                </button>
+              </Link>
+              <Link href='/Rej.pdf'>
+                <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white border mt-3">
+                Download CV
+                </button>
+              </Link>
             </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
@@ -53,4 +65,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default TopSection;
