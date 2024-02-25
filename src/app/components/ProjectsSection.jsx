@@ -7,6 +7,15 @@ import ProjectTag from './ProjectTag';
 const projectData = [
     {
         id: 1,
+        title: 'Portfolio site',
+        description: 'My portfolio',
+        url: "/images/projects/portf.jpg",
+        tag: ['All','Web'],
+        gitUrl : "https://github.com/Rejoan2020/My-Portfolio",
+        liveUrl : "https://rejoan-portfolio.vercel.app/"
+    },
+    {
+        id: 2,
         title: 'Electronic Gadget Shop',
         description: 'An ecommerse site having necessary features.',
         url: "/images/projects/Homepage.jpg",
@@ -15,7 +24,7 @@ const projectData = [
         liveUrl : "/"
     },
     {
-        id: 2,
+        id: 3,
         title: 'Text-Editor',
         description: 'A basic desktop text-editor having necessary features.',
         url: "/images/projects/texteditor.jpg",
@@ -24,7 +33,7 @@ const projectData = [
         liveUrl : "/"
     },
     {
-        id: 3,
+        id: 4,
         title: 'TodoList',
         description: 'Todo list management',
         url: "/images/projects/todo.PNG",
@@ -32,6 +41,7 @@ const projectData = [
         gitUrl : "https://github.com/Rejoan2020/TodoList-with-RESTapi?tab=readme-ov-file",
         liveUrl : "/"
     },
+    
     
 ]
 
