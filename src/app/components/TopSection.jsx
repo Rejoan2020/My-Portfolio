@@ -35,11 +35,11 @@ const TopSection = () => {
             />
             </span>
             <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl mt-2 ">
-            Let's dive and keep exploring
+            Let&apos;s dive and keep exploring
             </p>
             <div>
               <Link href='/#contact'>
-                <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-white">
+                <button className="px-6 text-black py-3 w-full sm:w-fit rounded-full mr-4 bg-white">
                   Hire me
                 </button>
               </Link>
