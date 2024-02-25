@@ -15,7 +15,7 @@ const TopSection = () => {
         ></iframe>
   return (
     <section>
-      <div className="grid grid-cols-1 sm:grid-cols-12 mt-8">
+      <div className="grid grid-cols-1 sm:grid-cols-12 mt-16">
         <div className="col-span-7 place-self-center text-center">
             <span className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             Hello, I am {" "}
