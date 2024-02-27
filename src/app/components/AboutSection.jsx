@@ -19,9 +19,9 @@ const AboutSection = () => {
       id : "skills",
       content:(
         <ul className='text-blue-100'>
-          <li><b className='text-blue-300'>Programming Languages : </b>C++, Python, JavaScript, Python.</li>
-          <li><b className='text-blue-300'>Frameworks & Libraries : </b>Django, Django REST Framework, RESTful Api, ReactJS, React Redux, NextJS.</li>
-          <li><b className='text-blue-300'>Others :</b> Vercel, Netlify, Postman, HTML, CSS, Bootstrap.</li> 
+          <li><b className='text-blue-300'>Programming Languages : </b>C++, Python, JavaScript, Python.<br/></li>
+          <li><b className='text-blue-300'>Frameworks & Libraries : </b>Django, Django REST Framework, RESTful Api, ReactJS, React Redux, NextJS.<br/></li>
+          <li><b className='text-blue-300'>Others :</b> Vercel, Netlify, Postman, HTML, CSS, Bootstrap.<br/></li> 
         </ul>
       )
     },
@@ -36,30 +36,35 @@ const AboutSection = () => {
             </Link>
             I placed among the top 20% in round 1 and participated in round 2.
           </li>
+          <br/>
           <li> 
             <Link href='https://toph.co/contests/training/wlqd3kx/standings'>
             <b className='text-blue-300'>Google Code Jam Farewell Round A (April 2023): </b>
             </Link>
             I was able to Solved 3 problems out of 5.
           </li>
+          <br/>
           <li> 
             <Link href='https://www.facebook.com/codingcompetitions/hacker-cup/2023/certificate/1050620602603679'>
             <b className='text-blue-300'>BRAC University Programming Contest 2022 (November 2022):
             </b>Our team standing was 7th out of 37 teams in the Senior category. 
             </Link>
           </li>
+          <br/>
           <li> 
             <Link href='https://algo.codemarshal.org/contests/icpc-dhaka-22-preli/standingsWe%20got%203rd%20place%20in%20Brac%20University.%20(Team%20Name:%20BRACU_BugsAndErrors%20%5b%20Brac%20University%20%5d)%20https:/algo.codemarshal.org/contests/icpc-dhaka-22-preli/standings'>
             <b className='text-blue-300'>2022 ICPC Asia Dhaka Regional Online Preliminary Contest (February 2023): </b>
             </Link>
             We stood 3rd in BRAC University university.
           </li>
+          <br/>
           <li> 
             <Link href='https://ieeextreme.org/ieeextreme-16-0-ranking/'>
             <b className='text-blue-300'>IEEEXtreme 16.0 (October 2022): </b>
             </Link>
             I ranked 9th in the country & 731st globally out of 6376 teams with solo Participation.
           </li>
+          <br/>
         </ol>
       )
     },
@@ -77,14 +82,28 @@ const AboutSection = () => {
                 <b>CGPA : </b>3.19
               </li>
           </li>
+          <br/>
           <li><b className='text-blue-300'>Completed HSC from Cambrian School & College</b></li>
           <li><b>Year : </b>2014-2016</li>
           <li><b>GPA: </b> 5</li>
-
+          <br/>
           <li><b className='text-blue-300'>Completed SSC from Cambrian School & College</b></li>
-          
           <li><b>Year : </b>2014-2016</li>
           <li><b>GPA: </b> 5</li>
+          <br/>
+        </ol>
+      )
+    },
+    {
+      Title: "Experience",
+      id: "Experience",
+      content:(
+        <ol>
+          <li><b className='text-blue-300'>B-JET(Bangladesh-Japan ICT Engineers’ Training Program)</b></li>
+          <li><b className='text-white-300'>Role :</b> Trainee</li>
+          <li><b className='text-white-300'>Duration : </b>5 months* (september 2023 - current)</li>
+          <li><b className='text-white-300'>Description : </b>B-JET provides the Japanese language, business culture, and IT training to prepare for Japanese IT
+          companies.</li>
         </ol>
       )
     }
@@ -110,6 +129,7 @@ const AboutSection = () => {
             <TabButton selectTab={()=>handleTabChange("skills")} active = {tab==="skills"}>Skills</TabButton>
             <TabButton selectTab={()=>handleTabChange("Coding Contests")} active = {tab==="Coding Contests"}> Contests</TabButton>
             <TabButton selectTab={()=>handleTabChange("Education")} active = {tab==="Education"}>Education</TabButton>
+            <TabButton selectTab={()=>handleTabChange("Experience")} active = {tab==="Experience"}>Experience</TabButton>
           </div>
           <div className='mt-8'>{tabData.find((t)=>t.id === tab).content}</div>
         </div>
