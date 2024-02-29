@@ -19,7 +19,7 @@ const AboutSection = () => {
       id : "skills",
       content:(
         <ul className='text-blue-100'>
-          <li><b className='text-blue-300'>Programming Languages : </b>C++, Python, JavaScript, Python.<br/></li>
+          <li><b className='text-blue-300'>Programming Languages : </b>C++, Python, JavaScript, Java.<br/></li>
           <li><b className='text-blue-300'>Frameworks & Libraries : </b>Django, Django REST Framework, RESTful Api, ReactJS, React Redux, NextJS.<br/></li>
           <li><b className='text-blue-300'>Others :</b> Vercel, Netlify, Postman, HTML, CSS, Bootstrap.<br/></li> 
         </ul>
