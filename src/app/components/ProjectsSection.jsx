@@ -7,40 +7,40 @@ import ProjectTag from './ProjectTag';
 const projectData = [
     {
         id: 1,
-        title: 'Portfolio site',
-        description: 'My portfolio',
-        url: "/images/projects/portf.jpg",
+        title: 'Zoinpark',
+        description: 'A modern crypto platform featuring staking, rewards, weekly challenges, transaction history, and a responsive dashboard, built with Next.js and React.',
+        url: "/images/projects/home.png",
         tag: ['All','Web'],
         gitUrl : "https://github.com/Rejoan2020/My-Portfolio",
         liveUrl : "https://rejoan-portfolio.vercel.app/"
     },
-    {
-        id: 2,
-        title: 'Electronic Gadget Shop',
-        description: 'An ecommerse site having necessary features.',
-        url: "/images/projects/Homepage.jpg",
-        tag: ['All','Web' ],
-        gitUrl : "https://github.com/Rejoan2020/Electronic-gadget-shop",
-        liveUrl : "/"
-    },
-    {
-        id: 3,
-        title: 'Text-Editor',
-        description: 'A basic desktop text-editor having necessary features.',
-        url: "/images/projects/texteditor.jpg",
-        tag: ['All','Others'],
-        gitUrl : "https://github.com/Rejoan2020/Text_editor_with_tkinter",
-        liveUrl : "/"
-    },
-    {
-        id: 4,
-        title: 'TodoList',
-        description: 'Todo list management',
-        url: "/images/projects/todo.PNG",
-        tag: ['All','Web'],
-        gitUrl : "https://github.com/Rejoan2020/TodoList-with-RESTapi?tab=readme-ov-file",
-        liveUrl : "/"
-    },
+    // {
+    //     id: 2,
+    //     title: 'Electronic Gadget Shop',
+    //     description: 'An ecommerse site having necessary features.',
+    //     url: "/images/projects/Homepage.jpg",
+    //     tag: ['All','Web' ],
+    //     gitUrl : "https://github.com/Rejoan2020/Electronic-gadget-shop",
+    //     liveUrl : "/"
+    // },
+    // {
+    //     id: 3,
+    //     title: 'Text-Editor',
+    //     description: 'A basic desktop text-editor having necessary features.',
+    //     url: "/images/projects/texteditor.jpg",
+    //     tag: ['All','Others'],
+    //     gitUrl : "https://github.com/Rejoan2020/Text_editor_with_tkinter",
+    //     liveUrl : "/"
+    // },
+    // {
+    //     id: 4,
+    //     title: 'TodoList',
+    //     description: 'Todo list management',
+    //     url: "/images/projects/todo.PNG",
+    //     tag: ['All','Web'],
+    //     gitUrl : "https://github.com/Rejoan2020/TodoList-with-RESTapi?tab=readme-ov-file",
+    //     liveUrl : "/"
+    // },
     
     
 ]
@@ -56,7 +56,7 @@ const ProjectsSection = () => {
 
     return (
         <section id = 'projects' className='text-white'>
-            <h2 className='text-white text-center font-bold mt-4 text-4xl mb-4'>My projects</h2>
+            <h2 className='text-white text-center font-bold mt-4 text-4xl mb-4'>Projects</h2>
             <div className='text-white flex flex-row justify-center items-center gap-2 py-6'> 
                 <ProjectTag onClick={handleTagChange} name="All" isSelected={tag==='All'}/>
                 <ProjectTag onClick={handleTagChange} name="Web" isSelected={tag==='Web'}/>
