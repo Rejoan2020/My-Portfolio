@@ -11,8 +11,8 @@ const projectData = [
         description: 'A modern crypto platform featuring staking, rewards, weekly challenges, transaction history, and a responsive dashboard, built with Next.js and React.',
         url: "/images/projects/home.png",
         tag: ['All','Web'],
-        gitUrl : "https://github.com/Rejoan2020/My-Portfolio",
-        liveUrl : "https://rejoan-portfolio.vercel.app/"
+        gitUrl : "https://github.com/Rejoan2020/zoinpark",
+        liveUrl : "https://zoinpark.vercel.app/"
     },
     // {
     //     id: 2,

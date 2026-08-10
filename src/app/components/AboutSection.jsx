@@ -100,8 +100,8 @@ const AboutSection = () => {
       content: (
         <>
           <ol>
-            <li><Link href={'https://www.linkedin.com/company/citrusai/'} className='hover:underline text-blue-300'>CitrusAI</Link></li>
-            <li><b className='text-white-300'>Role :</b> AI Data Trainer (Software Engineer)</li>
+            <li><Link href={'https://www.linkedin.com/company/citrusai/'} className='hover:underline text-blue-300'>Outlier</Link></li>
+            <li><b className='text-white-300'>Role :</b> AI Data Trainer (Software Engineer) — Contract</li>
             <li><b className='text-white-300'>Duration : </b>1 Year (March 2024 - March 2025)</li>
             <li><b className='text-white-300'>Description : </b>Contributed to LLM training by providing human-quality feedback and evaluations, with a particular focus on coding and software development tasks.</li>
             <li className='text-transparent'>blank</li>
