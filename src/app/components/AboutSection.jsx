@@ -100,7 +100,7 @@ const AboutSection = () => {
       content: (
         <>
           <ol>
-            <li><Link href={'https://www.linkedin.com/company/citrusai/'} className='hover:underline text-blue-300'>Outlier</Link></li>
+            <li><Link href={'https://outlier.ai/'} className='hover:underline text-blue-300'>Outlier</Link></li>
             <li><b className='text-white-300'>Role :</b> AI Data Trainer (Software Engineer) — Contract</li>
             <li><b className='text-white-300'>Duration : </b>1 Year (March 2024 - March 2025)</li>
             <li><b className='text-white-300'>Description : </b>Contributed to LLM training by providing human-quality feedback and evaluations, with a particular focus on coding and software development tasks.</li>
@@ -127,7 +127,7 @@ const AboutSection = () => {
 
             <p> My foundation comes from competitive programming. During my time at BRAC University, I participated in 200+ online and offline programming contests and solved 1,400+ problems across various online judges, including competitions such as Google Code Jam, Meta Hacker Cup, and IEEEXtreme.</p>
 
-            <p>I also worked with CitrusAI on Outlier freelance projects, contributing to AI training from March 2024 to April 2025. Between 2023 and 2024, I was a trainee at B-JET, where I learned the Japanese language and gained an understanding of Japanese business culture.</p>
+            <p>I also worked on contractual projects with Outlier, contributing to AI training from March 2024 to April 2025. Between 2023 and 2024, I was a trainee at B-JET, where I learned the Japanese language and gained an understanding of Japanese business culture.</p>
 
             <p>Today, I’m focused on combining my problem-solving background with modern development skills to build clean, practical, and reliable software.</p>
           </div>
