@@ -14,15 +14,15 @@ const projectData = [
         gitUrl : "https://github.com/Rejoan2020/zoinpark",
         liveUrl : "https://zoinpark.vercel.app/"
     },
-    // {
-    //     id: 2,
-    //     title: 'Electronic Gadget Shop',
-    //     description: 'An ecommerse site having necessary features.',
-    //     url: "/images/projects/Homepage.jpg",
-    //     tag: ['All','Web' ],
-    //     gitUrl : "https://github.com/Rejoan2020/Electronic-gadget-shop",
-    //     liveUrl : "/"
-    // },
+    {
+        id: 2,
+        title: 'MedSimAi',
+        description: 'An AI-powered medical simulation platform that helps medical students practice clinical case assessment and patient diagnosis.',
+        url: "/images/projects/medsimai.png",
+        tag: ['All','Web' ],
+        gitUrl : 'https://github.com/Rejoan2020/MedSimAi',
+        liveUrl : "https://med-sim-ai.vercel.app/dashboard"
+    },
     // {
     //     id: 3,
     //     title: 'Text-Editor',
